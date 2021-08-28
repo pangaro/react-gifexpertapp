@@ -5,12 +5,12 @@ import { GifGrid } from './components/GifGrid';
 
 //import PropTypes from 'prop-types'
 
-const GifExpertApp = props => {
-
+//const GifExpertApp = props => {
+export const GifExpertApp = ({ defaultCategories = [] }) => {
     //const categories = [ 'pepe', 'pepa', 'pipa' ];
 
-    const [categories, setCategories] = useState([]);
-
+    //const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useState( defaultCategories );
     /*const handleAdd = (e) => {
         //setCategories( [...categories, 'uno mas'] );
         setCategories( cats => [...categories, 'uno mas'] );

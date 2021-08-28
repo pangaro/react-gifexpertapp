@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <GifGridItem /> debe mostrar <GifGridItem /> correctamente 1`] = `
+<div
+  className="card animate__animated animate__swing"
+>
+  <img
+    alt="algos"
+    src="https://localhost/algo.jpg"
+  />
+  <p>
+     
+    algos
+     
+  </p>
+</div>
+`;
